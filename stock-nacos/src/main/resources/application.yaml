@@ -1,0 +1,12 @@
+server:
+  port: 8081
+#  应用name
+spring:
+  application:
+    name: stock-service
+  cloud:
+    nacos:
+      discovery:
+        username: user
+        password: password
+        namespace: public
